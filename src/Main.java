@@ -5,7 +5,9 @@ class Solution {
         //Write your code here
         int n=c1.length();
         char[] ch1=c1.toCharArray();
+
         char[] ch2=c2.toCharArray();
+
         if(c1.length()!=c2.length())return false;
 
         Arrays.sort(ch1);
